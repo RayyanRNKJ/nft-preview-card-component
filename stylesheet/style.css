@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  height: 100%;
+}
+
+body {
+  background: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  overflow-x: hidden;
+  height: 100%;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__component {
+  width: 16em;
+  background: hsl(216, 50%, 16%);
+  padding: 1em;
+  border-radius: 0.7em;
+  box-shadow: 0 4px 64px 4px hsl(216, 50%, 8%);
+  flex-direction: column;
+  gap: 1em;
+  margin-top: auto;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 0.4em;
+}
+
+.card__title-container,
+.card__paragraph-container {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.card__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.card__paragraph {
+  font-size: 0.82rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+
+.card__count-and-remain-container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card__ETH-count,
+.card__time-remain {
+  gap: 0.3em;
+}
+
+.card__icon {
+  width: 0.55em;
+}
+
+.card__ETH-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.card__time-title {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+
+.card__line {
+  width: 100%;
+  height: 0.05em;
+  background: hsl(215, 32%, 27%);
+}
+
+.card__credit-container {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.card__credit-img {
+  width: 1.5em;
+  border-radius: 50%;
+  border: 0.05em solid hsl(0, 0%, 100%);
+}
+
+.card__credit-title {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+
+.card__credit-title span {
+  color: hsl(0, 0%, 100%);
+}
+
+.card__credit-title span:hover,
+.card__title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution {
+  margin: auto 0 1em;
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution a{
+  color: hsl(215, 32%, 27%);
+}
+
+.attribution a:hover{
+  color: hsl(178, 100%, 50%);
+}
